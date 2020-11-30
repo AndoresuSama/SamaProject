@@ -1,0 +1,117 @@
+/*------ Pantallas Pequeñas ------*/
+
+  @media only screen and (min-width: 320px){
+    main{
+      div{
+        margin-top: $marginCarousel;
+        margin-bottom: $marginCarousel - 30px;
+      }
+    }
+
+    #index-clips, #index-subs, #index-bio, #index-schedule, #clips-section-title, #video-section, #form-box, #title-schedule, footer{
+      padding-top: $paddingSections;
+      border: black 1px solid;
+      border-radius: 8px;
+    }
+  
+    #index-subs, #index-bio, #index-schedule, #clips-section-title, #video-section, #form-box, #title-schedule, footer{
+      margin-top: 20px;
+    }
+  
+    #index-clips, #index-subs, #index-bio, #index-schedule, #clips-section-title, #video-section, #form-box, #title-schedule{
+      padding-top: $paddingSections +10px;
+      padding-bottom: $paddingSections +10px;
+      background-image: $sectionsBackground;
+    }
+  
+    #video-clips-index, #sama-animado-index, #calendario-img-index{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    #video-clips-index2, #video-clips-posit2{
+      display: none;
+    }
+
+    #clips-section-title{
+      text-align: center;
+    }
+
+    #video-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h4{
+        font-size: 0.5rem;
+        font-weight: normal;
+        padding-top: 5px;
+    }
+
+    #ordenDelFormulario{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  /*------------ Tablets -------------*/
+  
+  @media only screen and (min-width: 768px){
+    .caption-placement{
+      text-align: end;
+    }
+
+    #text-clips{
+      padding-top: 70px;
+    }
+
+    #video-clips-index, #video-clips-posit{
+      display: none;
+    }
+
+    #video-clips-posit2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #video-clips-index2{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+  
+    #index-clips, #index-subs, #index-bio, #index-schedule{
+      background-image: $sectionsBackgroundRight;
+    }
+
+    h4{
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    #ordenDelFormulario{
+      padding-left: 30%;
+      padding-right: 30%;
+    }
+
+    .table{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+  }
+  
+/*--------------- Pantallas Grandes ---------------*/
+
+  @media only screen and (min-width: 1440px){
+    #video-clips-posit2{
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+    }
+  }

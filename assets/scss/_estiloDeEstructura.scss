@@ -1,0 +1,77 @@
+body{
+    background-color:#202020 ;
+    color: white;
+}
+
+nav{
+  background-color: black;
+  div{
+    a{
+      color: white;
+      font-weight: bold;
+    }
+    a:hover{
+      color: red;
+    }
+  }
+}
+
+.correccionDeColor{
+  color: black;
+}
+
+ul{
+  li{
+    a{
+      font-weight: bold;
+    }
+  }
+}
+
+footer{
+    border: black 1px solid;
+    border-radius: 8px;
+    padding-bottom: $paddingSections;
+}
+
+.orden-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alinear-iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+  text-align: center;
+}
+
+form{
+  p{
+    text-align: center;
+  }
+}
+
+#title-schedule{
+  display: flex;
+  justify-content: center;
+}
+
+iframe, img{
+  animation-duration: 4s;
+  animation-name: aparecer;
+}
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
