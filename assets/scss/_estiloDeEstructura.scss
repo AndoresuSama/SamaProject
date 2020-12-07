@@ -40,15 +40,18 @@ footer{
     justify-content: space-around;
 }
 
-.alinear-iconos{
+@each $red in twitch, youtube, facebook, instagram, twitter {
+  .#{$red}-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .#{$red}-icon:hover{
+    color: red;
+  }
 }
 
-.alinear-iconos:hover{
-  color: red;
-}
 
 h3{
   text-align: center;

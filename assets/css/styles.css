@@ -27,12 +27,44 @@ footer {
   flex-direction: row;
   justify-content: space-around; }
 
-.alinear-iconos {
+.twitch-icon {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.alinear-iconos:hover {
+.twitch-icon:hover {
+  color: red; }
+
+.youtube-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.youtube-icon:hover {
+  color: red; }
+
+.facebook-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.facebook-icon:hover {
+  color: red; }
+
+.instagram-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.instagram-icon:hover {
+  color: red; }
+
+.twitter-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.twitter-icon:hover {
   color: red; }
 
 h3 {
