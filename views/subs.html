@@ -88,36 +88,47 @@
             </a>
             </div>
     </main>
-
+        <!-- Sección informativa para posibles Subs -->
         <section class="container-fluid" id="index-subs">
             <div class="row">
                 <div class="col-sm-6 col-md-8">
                     <h2>¿Has pensado en ser Suscriptor del canal?</h2>
                     <p>Si eres suscriptor del canal podrás gozar de los emotes personalizados del canal aparte de resaltar en el chat con los emblemas de suscripción, mientras mas tiempo pases suscrito, más subes de división de suscriptor, tu emblema irá avanzando desde suscriptor de Oro a suscriptor Challenger!</p>
                 </div>
+                <!-- Imagen demostrativa de Nivel mínimo y máximo de suscriptor -->
                 <div class="col-sm-6 col-md-4" id="subs-img-index">
                     <img src="../assets/images/oro-a-challenger.png" alt="Transicion de suscripcion">
                 </div>
             </div>
         </section>
 
+        <!-- Formulario de Consultas -->
         <section class="container-fluid" id="form-box">
+            <!-- Título del cuestionario -->
             <h3>¿Tienes alguna pregunta?</br>¡Yo te respondo!</h3>
             <form id="ordenDelFormulario">
+                <!-- Subtítulo indicativo del cuestionario -->
                 <p>Llena los campos y te responderé en breve!</p>
+                <!-- Input para Nombre -->
                 <label for="nombre">Tu Nombre</label>
                 <input type="text" id="nombre" name="nombre" required>
+                <!-- Input para Apellido-->
                 <label for="apellido">Tu Apellido</label>
                 <input type="text" id="apellido" name="apellido" required>
+                <!-- Input para E-mail -->
                 <label for="correo_electronico">Tu correo electrónico</label>
                 <input type="email" id="correo_electronico" name="correo_electronico" required>
+                <!-- Input para Consulta-->
                 <label for="tu_consulta">Tu Consulta:</label>
-                <textarea id="tu_consulta" name="tu_consulta" rows="6" cols="40"></textarea>
-                <input type="submit" name="Enviar"> 
+                <textarea id="tu_consulta" name="tu_consulta" rows="6" cols="40" required></textarea>
+                <!-- Botón enviar formulario -->
+                <input type="submit" name="Enviar">
+                <!-- Botón reset formulario-->
                 <input type="reset" name="Borrar todo">
             </form>
         </section>
-
+    
+    <!-- CDN de Jquery y Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
